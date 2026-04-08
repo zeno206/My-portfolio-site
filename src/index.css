@@ -1128,7 +1128,33 @@ input {
     width: 100%;
   }
   .de {
-    display: none;
+    display: block;
+    margin: 0 auto;
+    padding-top: 20px;
+  }
+
+  .de::before {
+    content: "";
+    background-color: #ffffff7d;
+    width: 49%;
+    height: 2px;
+    margin-top: 2px;
+    display: block;
+    position: relative;
+    bottom: -11px;
+    right: 19px;
+  }
+
+  .de::after {
+    content: "";
+    background-color: #ffffff7d;
+    width: 49%;
+    height: 2px;
+    margin-top: 10px;
+    display: block;
+    position: relative;
+    bottom: 20px;
+    right: -140px;
   }
 
   .lgn-btn1 {
