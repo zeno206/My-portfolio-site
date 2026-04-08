@@ -323,7 +323,6 @@ button:hover {
   margin-left: 4px;
 }
 .n-1a {
-  align-content: center;
   width: 18%;
   text-align: center;
 }
@@ -920,16 +919,15 @@ input {
     padding: 0px;
     display: block;
     padding: 14px;
-    text-align: center;
   }
   .ri-shining-2-fill {
-    margin-left: 147px;
+    margin: 0 auto;
   }
   .ri-edit-circle-line {
-    margin-left: 109px;
+    margin: 0 auto;
   }
   .ri-send-plane-line {
-    margin-left: 106px;
+    margin: 0 auto;
   }
   .n-1b {
     margin-top: 11px;
