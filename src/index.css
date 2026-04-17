@@ -270,6 +270,7 @@ button:hover {
   opacity: 0;
 
   animation: slideLeft 1s ease-out 3s forwards;
+  align-items: center;
 }
 
 @keyframes slideLeft {
@@ -287,6 +288,7 @@ button:hover {
   opacity: 0;
 
   animation: slideLeft 1s ease-out 3.11s forwards;
+  align-items: center;
 }
 
 @keyframes slideLeft {
@@ -304,6 +306,7 @@ button:hover {
   opacity: 0;
 
   animation: slideLeft 1s ease-out 3.12s forwards;
+  align-items: center;
 }
 
 @keyframes slideLeft {
@@ -323,7 +326,7 @@ button:hover {
   margin-left: 4px;
 }
 .n-1a {
-  width: 100%;
+  width: 25%;
   text-align: center;
 }
 
@@ -1219,5 +1222,10 @@ input {
   p {
     color: #fff;
     font-size: 10px;
+  }
+
+  .n-1a {
+    width: 100%;
+    text-align: center;
   }
 }
