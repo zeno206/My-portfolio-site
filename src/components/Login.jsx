@@ -1,7 +1,7 @@
 import React from "react";
 import axios from "axios";
 
-function Login() {
+async function Login() {
   const login = (e) => {
     e.preventDefault();
 
